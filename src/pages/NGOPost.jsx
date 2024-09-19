@@ -121,7 +121,7 @@ const NGOPost = () => {
 
     try {
       await sendData(organization, address, mobile);
-      navigate('/Prop'); // Navigate to /Props after successful submission
+      navigate('/NGO'); // Navigate to /Props after successful submission
     } catch (error) {
       console.error("Error submitting the form:", error);
     }

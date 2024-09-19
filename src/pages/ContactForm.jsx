@@ -9,7 +9,7 @@ import { Link, redirect } from 'react-router-dom';
 const ContactForm = () => {
 
   
-  const sendData = async (Name,Email,content)=>{
+  const sendData = async (Name,Email,Message)=>{
     try {
       const response = await axios.post(`http://localhost:3000/contacts/`,{
         Name:Name,

@@ -10,12 +10,12 @@ const Navbar = () => {
         </div>
         
         {/* Navigation Links */}
-        <div className="space-x-4">
+        <div className="space-x-7 text-xl mr-5">
           <a href="/" className="text-black font-bold hover:text-gray-900">Home</a>
           <a href="/About" className="text-black font-bold hover:text-gray-200">About</a>
           <a href="/Prop" className="text-black font-bold hover:text-gray-200">Props</a>
-          <a href="/Contact" className="text-black font-bold hover:text-gray-200">Contact</a>
           <a href="/NGO" className="text-black font-bold hover:text-gray-200">NGO</a>
+          <a href="/Contact" className="text-black font-bold hover:text-gray-200">Contact</a>
         </div>
       </div>
     </nav>

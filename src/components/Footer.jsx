@@ -22,14 +22,11 @@ const Footer = () => {
 
           {/* Social Media Icons */}
           <div className="flex space-x-4">
-            <a href="https://facebook.com" className="hover:text-gray-400">
+            <a href="https://www.facebook.com/profile.php?id=61566359181940" className="hover:text-gray-400">
               <i className="fab fa-facebook"></i> Facebook
             </a>
-            <a href="https://twitter.com" className="hover:text-gray-400">
-              <i className="fab fa-twitter"></i> Twitter
-            </a>
-            <a href="https://instagram.com" className="hover:text-gray-400">
-              <i className="fab fa-instagram"></i> Instagram
+            <a href="www.linkedin.com/in/ise-department-aiems-21977b329" className="hover:text-gray-400">
+              <i className="fab fa-twitter"></i> LinkedIn
             </a>
           </div>
         </div>
